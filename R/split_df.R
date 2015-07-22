@@ -15,4 +15,6 @@ split_df <- function(dataframe, seed=NULL) {
   trainindex <- sample(index, trunc(length(index)/2))
   valset <- dataframe[trainindex, ]
   testset <- dataframe[-trainindex, ]
-  list(valset=valset,testset=testset)}
+  x <- list(valset=valset,testset=testset)
+  return(x)
+}
