@@ -1,0 +1,15 @@
+Package: zebu
+Type: Package
+Title: Mainly Remote Sensing 
+Version: 1.0
+Date: 2015-07-22
+Author: Tom Higginbottom
+Maintainer: Who to complain to <T.Higgginbottom@mmu.ac.uk>
+Description: Tools and Functions primerily for remote sensing applications, others general 
+License: Free 
+URL: https://github.com/Tomhigg/zebu
+Imports: 
+  raster,
+  rgdal,
+  sp,
+  tools
