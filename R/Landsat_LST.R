@@ -6,7 +6,7 @@
 
 #'@param red, red waveband reflectance, Landsat4/5/7= band 3, Landsat 8=Band 4
 #'@param nir near infared waveband reflectance, Landsat 4/5/7=band 4, Landsat 8=Band 5
-#'@parambt Brightness temperature band. Landsat 4/5/7=Band 6, Landsat 8= bands 10 or 11
+#'@param bt Brightness temperature band. Landsat 4/5/7=Band 6, Landsat 8= bands 10 or 11
 #'@param ex extent of processing 
 #'@param  band thermal band used, Landsat 4/5/6= "TM", Landsat 8 "TIRS10" or "TIRS11" depending on band
 #'@param output_prefix prefix for output file eg "Manchester_2003_july10" LST/ndvi.tif will be added for file 
