@@ -4,11 +4,11 @@
 #' Landsat imagery. 
 #' 
 #' @param x rastwe layer to be masked, ie the original
-#' @param mask raster layer used as the mask, all pixels not 0 will be NA, potentially use reclass to 
+#' @param y raster layer used as the mask, all pixels not 0 will be NA, potentially use reclass to 
 #' 
 #' @return a multiband tiff image where non 0 pixels have been removed (NA'D)
 
-cloud2NA <- function(x, mask){
+cloud2NA <- function(x, y){
   x[y != 0] <- NA
   return(x)
   }
