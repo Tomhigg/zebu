@@ -12,7 +12,7 @@ split_df(dataframe, seed = NULL)
 \item{seed}{Option to set seet (random number generator) for reproducability, defaults to null}
 }
 \value{
-A list of training and validation dataframes, extract usiing training  <- input$trainset or input$valset
+A list of training and validation dataframes, extract usiing training  <- input$trainset or input$testset
 }
 \description{
 Function to randomly split a data frame into two sections, potentially for training and validation

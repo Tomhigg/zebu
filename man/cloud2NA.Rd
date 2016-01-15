@@ -4,12 +4,12 @@
 \alias{cloud2NA}
 \title{Cloud To NA}
 \usage{
-cloud2NA(x, mask)
+cloud2NA(x, y)
 }
 \arguments{
 \item{x}{rastwe layer to be masked, ie the original}
 
-\item{mask}{raster layer used as the mask, all pixels not 0 will be NA, potentially use reclass to}
+\item{y}{raster layer used as the mask, all pixels not 0 will be NA, potentially use reclass to}
 }
 \value{
 a multiband tiff image where non 0 pixels have been removed (NA'D)
